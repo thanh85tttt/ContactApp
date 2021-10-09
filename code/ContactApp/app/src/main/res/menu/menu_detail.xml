@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mn_detail_important"
+        android:title="Important"
+        android:icon="@drawable/ic_star_outline_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mn_detail_edit_contact"
+        android:title="Edit"
+        android:icon="@drawable/ic_edit_24"
+        app:showAsAction="always"
+        android:tooltipText="Edit contact"
+        />
+
+    <item
+        android:id="@+id/mn_detail_delete_contact"
+        android:title="Delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mn_detail_share_contact"
+        android:title="Share"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mn_detail_view_qrcode"
+        android:title="Qr code"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mn_detail_exit"
+        android:title="Exit"
+        app:showAsAction="ifRoom"/>
+
+</menu>
